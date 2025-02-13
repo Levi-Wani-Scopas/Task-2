@@ -1,5 +1,6 @@
 package com.example.tasktwo;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -22,6 +23,7 @@ public class AuthActivity extends AppCompatActivity {
     private Button loginButton, registerButton;
 
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -94,5 +96,4 @@ public class AuthActivity extends AppCompatActivity {
 
 
     }
-}
 }
